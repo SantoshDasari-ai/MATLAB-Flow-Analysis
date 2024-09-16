@@ -1,3 +1,5 @@
+clear all
+clc
 
 % Define the flow field function
 v = @(x, y) [3*x^2, 5*y^2 - x^3];
